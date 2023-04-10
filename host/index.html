@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="index-style.css">   
+</head>
+<body>
+  <!-- Login form with ID "login-form" -->
+  <div class="login-box">
+    <h1>Login - v4.2</h1>
+    <form id="login-form">
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+  <!-- Firebase scripts to initialize Firebase SDK and handle authentication -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+  <!-- Custom script to handle login form submission and Firebase authentication -->
+  <script src="script.js"></script>
+</body>
+</html>

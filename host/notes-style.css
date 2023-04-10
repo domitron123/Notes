@@ -1,0 +1,13 @@
+body {
+    background-color: #e3d5c5;
+}
+
+.notes-page
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+

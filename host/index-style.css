@@ -1,0 +1,51 @@
+body {
+	/* Set display property to flex to enable flexbox layout */
+	display: flex;
+	/* Align items in the center of the flex container vertically */
+	align-items: center;
+	/* Justify content in the center of the flex container horizontally */
+	justify-content: center;
+	background-color: #e3d5c5;
+}
+
+.login-box {
+	font-family: 'Roboto', sans-serif;
+	/* Style login box */
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+	/* Position login box in the center of the screen */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login-box h1 {
+	/* Style login box header */
+	color: #4d4d4d ;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.login-box label {
+	/* Style login box label */
+	color: #4d4d4d ;
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.login-box input[type="password"] {
+	/* Style login box password input field */
+	border-radius: 5px;
+	border: 1px solid #101238;
+	display: block;
+	font-size: 16px;
+	margin-bottom: 20px;
+	width: 100%;
+}
