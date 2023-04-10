@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">   
+</head>
+<body>
+  <div class="login-box">
+    <h1>Login</h1>
+    <form id="login-form">
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Initialize Firebase
+    var firebaseConfig = {
+        apiKey: "AIzaSyCFBwbQUvcwQVdGLE573GJlG5L-5O6CBII",
+        authDomain: "website-login-2972c.firebaseapp.com",
+        projectId: "website-login-2972c",     
+        storageBucket: "website-login-2972c.appspot.com",     
+        messagingSenderId: "298219993095",     
+        appId: "1:298219993095:web:9bbd83f06b3772c4f712a2",    
+        measurementId: "G-SSY948ZZ00"     
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</body>
+</html>
