@@ -7,18 +7,31 @@
 </head>
 <body>
   <div class="notes-page">
-    <h1>My Notes</h1>
-    <div class="search-bar">
-      <!-- input field for searching notes -->
-      <input type="text" placeholder="Search notes..."> 
-      <!-- search button -->
-      <button>Search</button> 
+    
+    <div class="title">
+      <h1>Notes</h1>
+      <div class="search-bar">
+        <!-- input field for searching notes -->
+        <input type="text" placeholder="Search notes..."> 
+        <!-- search button -->
+        <button>Search</button> 
+      </div>
     </div>
-    <div class="note-list">
-      <!-- Display the user's notes here -->
-      <p>Notes displayed here</p>
+
+    <div class="book-list">
+      <!-- Display the user's books here -->
+
+      <div class="vertical-nav">
+        <ul>
+          <li><a href="#">Book 1</a></li>
+          <li><a href="#">Book 2</a></li>
+          <li><a href="#">Book 3</a></li>
+          <li><a href="#">Create book</a></li>
     </div>
   </div>
+
+  <footer><p> Important footer stuff</p></footer>
+  
   <!-- import Firebase SDK -->
   <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script> 
   <!-- import Firestore SDK -->

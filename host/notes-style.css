@@ -1,22 +1,69 @@
 body {
     background-color: #e3d5c5;
+    margin: 0;
+    
 }
 
 .notes-page
 {
     border-color: red;
     border-style: solid;
-    font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
+    font-family: 'Roboto', serif;
+    font-size: large;
+    height: 100vh;
+}
+
+.notes-page, h1 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.title {
+    background-color: white;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    /* border-color: orange;
+    border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .search-bar {
-    border-color: green;
-    border-style: solid;
+    /* border-color: green;
+    border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    width: 150px;
 }
 
-.note-list {
+.search-bar input {
+    height: 30px;
+    border: 1px solid;
+    font-size: 16px;
+    background-color: #D9D9D9;
+}
+
+.book-list {
     border-color: blue;
     border-style: solid;
+    background-color: white;
+    width: fit-content;
+    height: 100%;
+    
+}
+
+footer {
+    background-color: #101238;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 }
 
