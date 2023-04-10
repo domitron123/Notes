@@ -4,10 +4,19 @@ body {
 
 .notes-page
 {
+    border-color: red;
+    border-style: solid;
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    
+}
+
+.search-bar {
+    border-color: green;
+    border-style: solid;
+}
+
+.note-list {
+    border-color: blue;
+    border-style: solid;
 }
 
