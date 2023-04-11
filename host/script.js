@@ -1,6 +1,5 @@
 // Your web app's Firebase configuration
 const firebaseConfig = {
-
   apiKey: "AIzaSyCFBwbQUvcwQVdGLE573GJlG5L-5O6CBII",
 
   authDomain: "website-login-2972c.firebaseapp.com",
@@ -14,7 +13,6 @@ const firebaseConfig = {
   appId: "1:298219993095:web:9bbd83f06b3772c4f712a2",
 
   measurementId: "G-SSY948ZZ00"
-
 };
 
 // Initialize Firebase with the configuration object
@@ -43,9 +41,9 @@ loginForm.addEventListener("submit", function(event) {
   });
 });
 
-
-
-
-
-
-
+// Check if the user is logged in, and redirect to index.html if not
+firebase.auth().onAuthStateChanged(function(user) {
+  if (!user) {
+    window.location.href = "index.html";
+  }
+});
