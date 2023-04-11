@@ -1,16 +1,16 @@
 body {
-    background-color: #e3d5c5;
+    background-color: #ffffff;
     margin: 0;
-    
 }
 
 .notes-page
 {
-    border-color: red;
-    border-style: solid;
     font-family: 'Roboto', serif;
     font-size: large;
-    height: 100vh;
+    min-height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .notes-page, h1 {
@@ -19,11 +19,9 @@ body {
 }
 
 .title {
-    background-color: white;
+    background-color: #e3d5c5;
     border-bottom-color: black;
     border-bottom-style: solid;
-    /* border-color: orange;
-    border-style: solid; */
     display: flex;
     flex-direction: column;
     padding-left: 50px;
@@ -32,28 +30,44 @@ body {
 }
 
 .search-bar {
-    /* border-color: green;
-    border-style: solid; */
     display: flex;
     flex-direction: column;
     width: 150px;
 }
 
 .search-bar input {
-    height: 30px;
+    min-height: 30px;
     border: 1px solid;
     font-size: 16px;
     background-color: #D9D9D9;
 }
 
 .book-list {
-    border-color: blue;
-    border-style: solid;
-    background-color: white;
-    width: fit-content;
-    height: 100%;
-    
+    background-color: #e3d5c5;
+    flex-grow: 1;
+    overflow-y: hidden;
+    width: 250px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #e3d5c5;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 30px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  li a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
 
 footer {
     background-color: #101238;
@@ -64,6 +78,5 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-
 }
 
